@@ -31,5 +31,13 @@ https://site2.abdullah.jo3.org.
 ✔ Domain & DNS setup  
 ✔ Production level hosting basics  
 
+## 📸 Screenshots
+
+### Site 1 — AWS Projects
+![Site 1](Site1.png)
+
+### Site 2 — Cloud Services
+![Site 2](Site2.png)
+
 ## 👨‍💻 Author
 Abdullah Sajid – Cloud Engineer
