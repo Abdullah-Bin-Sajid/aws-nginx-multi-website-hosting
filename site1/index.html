@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Sajid | AWS Cloud Projects</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0d1117;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            min-height: 100vh;
+        }
+        header {
+            background: #161b22;
+            padding: 20px 40px;
+            border-bottom: 1px solid #30363d;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 { color: #58a6ff; font-size: 1.5em; }
+        header span { color: #3fb950; font-size: 0.9em; }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, #161b22, #0d1117);
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            color: #58a6ff;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            color: #8b949e;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        .badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .badge {
+            background: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            padding: 8px 16px;
+            color: #58a6ff;
+            font-size: 0.9em;
+        }
+        .projects {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .projects h3 {
+            color: #3fb950;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 25px;
+            transition: border-color 0.3s;
+        }
+        .project-card:hover {
+            border-color: #58a6ff;
+        }
+        .project-icon { font-size: 2em; margin-bottom: 15px; }
+        .project-card h4 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .project-card p {
+            color: #8b949e;
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+        .tech-tag {
+            background: #0d1117;
+            border: 1px solid #3fb950;
+            color: #3fb950;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 0.75em;
+        }
+        .project-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        .project-link:hover { text-decoration: underline; }
+        .stats {
+            background: #161b22;
+            border-top: 1px solid #30363d;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .stats-grid {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+        .stat h3 {
+            color: #58a6ff;
+            font-size: 2em;
+        }
+        .stat p { color: #8b949e; font-size: 0.9em; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #8b949e;
+            font-size: 0.85em;
+            border-top: 1px solid #30363d;
+        }
+        footer a { color: #58a6ff; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>☁️ Abdullah Sajid</h1>
+    <span>● Cloud Engineer — Open to Remote</span>
+</header>
+
+<div class="hero">
+    <h2>AWS Cloud Projects</h2>
+    <p>Real-world cloud infrastructure built on AWS</p>
+    <div class="badges">
+        <span class="badge">AWS EC2</span>
+        <span class="badge">Linux</span>
+        <span class="badge">Nginx</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Git</span>
+        <span class="badge">Bash</span>
+        <span class="badge">SSL/TLS</span>
+        <span class="badge">DNS</span>
+    </div>
+</div>
+
+<div class="projects">
+    <h3>🚀 Featured Projects</h3>
+    <div class="project-grid">
+
+        <div class="project-card">
+            <div class="project-icon">🖥️</div>
+            <h4>EC2 Web Server Deployment</h4>
+            <p>Deployed a production web server on AWS EC2 with Nginx, configured Elastic IP, custom domain and SSL/HTTPS certificate.</p>
+            <div class="tech-tags">
+                <span class="tech-tag">AWS EC2</span>
+                <span class="tech-tag">Nginx</span>
+                <span class="tech-tag">SSL</span>
+                <span class="tech-tag">DNS</span>
+                <span class="tech-tag">Linux</span>
+            </div>
+            <a href="https://abdullah.jo3.org" 
+               class="project-link" target="_blank">
+               🔗 Live Site →
+            </a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h4>Multi-Site Virtual Hosting</h4>
+            <p>Configured Nginx Virtual Hosts to host multiple websites on a single AWS EC2 server with separate DNS subdomains.</p>
+            <div class="tech-tags">
+                <span class="tech-tag">Virtual Hosts</span>
+                <span class="tech-tag">Nginx</span>
+                <span class="tech-tag">AWS EC2</span>
+                <span class="tech-tag">DNS</span>
+            </div>
+            <a href="https://site2.abdullah.jo3.org" 
+               class="project-link" target="_blank">
+               🔗 Live Site →
+            </a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🔒</div>
+            <h4>SSL/HTTPS Security Setup</h4>
+            <p>Secured web servers with free SSL certificates using Let's Encrypt and Certbot with auto-renewal configured.</p>
+            <div class="tech-tags">
+                <span class="tech-tag">SSL/TLS</span>
+                <span class="tech-tag">Certbot</span>
+                <span class="tech-tag">HTTPS</span>
+                <span class="tech-tag">Nginx</span>
+            </div>
+            <a href="https://abdullah.jo3.org" 
+               class="project-link" target="_blank">
+               🔗 View →
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<div class="stats">
+    <div class="stats-grid">
+        <div class="stat">
+            <h3>2+</h3>
+            <p>AWS Projects</p>
+        </div>
+        <div class="stat">
+            <h3>3+</h3>
+            <p>Live Websites</p>
+        </div>
+        <div class="stat">
+            <h3>100%</h3>
+            <p>Uptime</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>
+        Abdullah Sajid — Cloud & DevOps Engineer |
+        <a href="https://linkedin.com/in/abdullah-sajid-azure">LinkedIn</a> |
+        <a href="https://github.com/Abdullah-Bin-Sajid">GitHub</a> |
+        <a href="https://abdullah.jo3.org">Portfolio</a>
+    </p>
+</footer>
+
+</body>
+</html>
